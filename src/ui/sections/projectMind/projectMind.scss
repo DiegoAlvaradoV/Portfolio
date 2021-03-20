@@ -1,0 +1,155 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.projectMind{
+    display: grid;
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+    background-color: $Primary;
+    color: $PrimaryLighten;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 20px 5px -13px rgba(0,0,0,0.3);;
+
+    .projectMind__Data{
+
+        .projectMind__DataIcon{
+            margin-bottom: 0.5rem;
+            font-size: 3.5rem;
+        }
+
+        .projectMind__DataContent{
+
+            .projectMind__DataContentTitle{
+                margin-bottom: 0.5rem;
+                font-size: 1.5rem;
+            }
+
+            .projectMind__DataContentDescription{
+                margin-bottom: 2rem;
+                font-size: 1rem;
+            }
+        }
+
+        .projectMind__DataContact{
+
+            .projectMind__DataContactButton{
+                display: inline-block;
+                background-color: $PrimaryLighten;
+                padding: 0.75rem 1rem;
+                border-radius: 0.25rem;
+                transition: 0.35;
+                color: $Primary;
+                font-weight: 600;
+            }
+
+            .projectMind__DataContactButton:hover{
+                background-color: $PrimaryLight;
+                color: $PrimaryDark;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .projectMind{
+        padding: 4.5rem 0;
+        .projectMind__Data{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .projectMind__DataIcon{
+                margin-bottom: 0;
+                font-size: 5rem;
+            }
+
+            .projectMind__DataContent{
+
+                .projectMind__DataContentTitle{
+                    margin-bottom: 0;
+                    font-size: 1.5rem;
+                }
+
+                .projectMind__DataContentDescription{
+                    margin-bottom: 0;
+                    font-size: 1.3rem;
+                }
+            }
+
+            .projectMind__DataContact{
+                .projectMind__DataContactButton{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .projectMind{
+        .projectMind__Data{
+
+            .projectMind__DataIcon{
+                font-size: 6rem;
+            }
+
+            .projectMind__DataContent{
+
+                .projectMind__DataContentTitle{
+                    font-size: 2rem;
+                }
+
+                .projectMind__DataContentDescription{
+                    font-size: 1.8rem;
+                }
+            }
+
+            .projectMind__DataContact{
+                .projectMind__DataContactButton{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

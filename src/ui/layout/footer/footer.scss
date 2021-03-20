@@ -1,0 +1,71 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.footer{
+  display: grid;
+  gap: 1.5rem;
+  background-color: $PrimaryDark;
+  color: $PrimaryLighten;
+  text-align: center;
+
+  .footer__Description{
+    padding: 3rem 0;
+
+    .footer__DescriptionTitle{
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .footer__DescriptionText{
+      margin-bottom: 1.5rem;
+    }
+
+    .footer__DescriptionSocial{
+      margin-bottom: 3rem;
+
+      .footer__DescriptionSocialLink{
+        font-size: 1.4rem;
+        color: $PrimaryLighten;
+        margin: 0 0.5rem;
+        transition: 0.3s;
+      }
+
+      .footer__DescriptionSocialLink:hover{
+        color: $PrimaryLight;
+      }
+    }
+
+    .footer__DescriptionCopy{
+      font-size: 0.75rem;
+      color: $PrimaryLight;
+    }
+  }
+}

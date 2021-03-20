@@ -1,0 +1,174 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.home{
+  max-width: 1024px;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  position: relative;
+  height: calc(100vh - 3rem);
+  grid-template-rows: repeat(2, max-content);
+  align-content: space-around;
+  row-gap: 2rem;
+
+  .home__Presentation{
+    border-left: 4px solid $PrimaryLighten;
+    color: $PrimaryLighten;
+    padding-left: 1.5rem;
+    z-index: 10;
+
+    .home__Greeting{
+      display: block;
+      font-weight: 700;
+      font-size: 0.813rem;;
+    }
+
+    .home__Name{
+      font-size: 2.5rem;
+      font-weight: 900;
+    }
+
+    .home__Profession{
+      display: block;
+      font-weight: 700;
+      font-size: 0.938rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .home__CV{
+      display: inline-block;
+      background-color: $Primary;
+      padding: 0.75rem 1rem;
+      border-radius: 0.25rem;
+      transition: 0.35;
+      color: $PrimaryLighten;
+      font-weight: 600;
+    }
+
+    .home__CV:hover{
+      background-color: $PrimaryDark;
+      font-weight: 900;
+    }
+  }
+
+  .home__Social{
+    display: flex;
+    flex-direction: column;
+
+    .home__SocialIcon{
+      width: max-content;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: $PrimaryLighten;
+    }
+
+    .home__SocialIcon:hover{
+      color: $PrimaryLight;
+    }
+  }
+
+  .home__ImgBox{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    .home__Img{
+      width: 200px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px){
+  .home{
+
+    .home__Social{
+      .home__SocialIcon{
+        font-size: 1.8rem;
+      }
+    }
+
+    .home__ImgBox{
+      .home__Img{
+        width: 330px;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+  .home{
+    height: 100vh;
+    grid-template-rows: max-content 0.5fr;
+    align-content: flex-end;
+
+    .home__Presentation{
+  
+      .home__Greeting{
+        font-size: 1.25rem;;
+      }
+  
+      .home__Profession{
+        font-size: 3rem;
+      }
+  
+    }
+
+    .home__Social{
+      flex-direction: row;
+      align-items: center;
+      .home__SocialIcon{
+        margin-right: 2rem;
+        margin-bottom: 0;
+      }
+
+    }
+
+    .home__ImgBox{
+      .home__Img{
+        width: 450px;
+      }
+    }
+  }
+}

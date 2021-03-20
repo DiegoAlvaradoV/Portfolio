@@ -1,0 +1,82 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.references{
+    .references__Content{
+        .references__ContentData{
+            display: grid;
+            background-color: $PrimaryDark;
+            color: $PrimaryLighten;
+            border-radius: 0.5rem;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(47,10,13,0.25);
+            .references__ContentDataImg{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                justify-self: center;
+                margin-bottom: 0.5rem;
+            }
+
+            .references__ContentDataName{
+
+            }
+
+            .references__ContentDataClient{
+
+            }
+
+            .references__ContentDataText{
+                font-size: 0.813rem;
+                color: $PrimaryLight;
+                margin-bottom: 1rem;
+            }
+
+        }
+    }
+}
+
+
+
+.swiper-pagination{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .swiper-pagination-bullet{
+        margin-right: 5px;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: $PrimaryDark;
+    }
+}  

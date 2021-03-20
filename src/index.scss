@@ -1,0 +1,70 @@
+/*FUENTES*/
+
+@import "./assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "./assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 3rem 0 0 0;
+    font-family: $Poppins;
+    font-size: 0.938rem;
+    font-weight: 500;
+    background-color: $PrimaryLighten;
+    color: $Text;
+    line-height: 1.6;
+}
+
+h1,h2,h3,ul,p{
+    margin: 0;
+}
+
+h2,h3{
+    font-weight: 600;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    
+    body{
+        margin: 0;
+    }
+    
+}

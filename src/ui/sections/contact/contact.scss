@@ -1,0 +1,163 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.contact{
+    display: grid;
+    gap: 1.5rem;
+    row-gap: 2.5rem;
+
+  .contact__Content{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(autofit, minmax(220px,1fr));
+
+    .contact__ContentBox{
+      background-color: #fff;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(174,190,205,0.3);
+
+      .contact__ContentBoxIcon{
+        color: $Primary;
+        font-size: 2rem;
+      }
+
+      .contact__ContentBoxTitle{
+        color: $Primary;
+        font-size: 1.125rem;
+        margin: 0.5rem 0;
+      }
+
+      .contact__ContentBoxDescription{
+
+      }
+
+      .contact__ContentBoxSocial{
+        .contact__ContentBoxSocialRed{
+          cursor: context-menu;
+          .contact__ContentBoxSocialRedLink{
+            cursor: pointer;
+            color: $PrimaryLight;
+            font-size: 1.25rem;
+            margin: 0 0.5rem;
+          }
+        }
+      }
+
+    }
+
+    .contact__ContentBox:hover{
+      box-shadow: 0 6px 8px tgba(174,190,205,0.4);
+    }
+    
+  }
+
+  .contact__Form{
+
+    .contact__FormInputs{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 1rem;
+      .contact__FormInputsInput{
+        outline: none;
+        font-size: 0.938rem;
+        width: 100%;
+        padding: 1rem;
+        border: 2px solid $PrimaryLight;
+        color: $Primary;
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .contact__FormInputsInput::placeholder{
+        color: $PrimaryLight;
+        font-size: 600;
+      }
+    }
+
+    .contact__FormMessage{
+      outline: none;
+      font-size: 0.938rem;
+      width: 100%;
+      padding: 1rem;
+      border: 2px solid $PrimaryLight;
+      color: $Primary;
+      border-radius: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact__FormMessage::placeholder{
+      color: $PrimaryLight;
+      font-size: 600;
+    }
+
+    .contact__FormButton{
+      outline: none;
+      font-size: 0.938rem;
+      cursor: pointer;
+      border: none;
+      display: inline-block;
+      background-color: $Primary;
+      padding: 0.75rem 1rem;
+      border-radius: 0.25rem;
+      transition: 0.35;
+      color: $PrimaryLighten;
+      font-weight: 600;
+    }
+
+    .contact__FormButton:hover{
+      background-color: $PrimaryDark;
+      font-weight: 900;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px){
+
+  .contact{
+    .contact__Content{
+      grid-template-columns: repeat(2,1fr);
+    }
+    
+    .contact__Form{
+      width: 450px;
+      justify-self: center;
+    }
+  }
+}

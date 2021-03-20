@@ -1,0 +1,43 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.projectsNav{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  .projectsNav__Item{
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+}
+
+.mixitup-control-active{
+  color: $PrimaryDark;
+  font-weight: 600;
+}

@@ -1,0 +1,45 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.logo{
+  color: $PrimaryLighten;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 1vw;
+
+  .logo__Img{
+    max-width: 30px;
+    min-width: 30px;
+  }
+}
+
+.logo__Scroll{
+  color: $PrimaryDark;
+}

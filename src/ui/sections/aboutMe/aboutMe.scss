@@ -1,0 +1,172 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.aboutMe{
+  display: grid;
+  gap: 1.5rem;
+
+  .aboutMe__Data{
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+
+    .aboutMe__DataInfo{
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+
+    .aboutMe__DataTec{
+      cursor: context-menu;
+
+      .aboutMe__DataTecSubtitle{
+        text-align: center;
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+        color: $PrimaryDark;
+        margin-bottom: 1rem;
+      }
+
+      .aboutMe__DataTecP{
+        
+        span{
+          font-size: 1.5rem;
+          display: block;
+          font-weight: 500;
+        }
+
+        i{
+          font-size: 1.5rem;
+          color: #333;
+        }
+
+        i:hover{
+          color: $Primary;
+        }
+      }
+    }
+
+    .aboutMe__Img{
+      justify-self: center;
+      width: 250px;
+      border-radius: 0.5rem;
+      box-shadow: 0px 20px 5px -13px rgba(0,0,0,0.3);;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px){
+  .aboutMe{
+    .aboutMe__Data{
+      grid-template-columns: repeat(2,1fr);
+
+      .aboutMe__DataInfo{
+        text-align: initial;
+      }
+  
+      .aboutMe__DataTec{
+        position: relative;
+        bottom: 4vh;
+
+        .aboutMe__DataTecSubtitle{
+          margin-top: 4vh;
+        }
+      }
+  
+      .aboutMe__Img{
+        position: relative;
+        top: 25vh;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+
+  .aboutMe{
+    .aboutMe__Data{
+
+      .aboutMe__DataTec{
+        bottom: 30vh;
+      }
+
+      .aboutMe__Img{
+        width: 330px;
+        top: 8vh;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 990px){
+
+  .aboutMe{
+    .aboutMe__Data{
+      .aboutMe__DataTec{
+        bottom: 35vh;
+      }
+
+      .aboutMe__Img{
+        top: 6vh;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 1020px){
+
+  .aboutMe{
+    .aboutMe__Data{
+      .aboutMe__DataTec{
+        bottom: 40vh;
+      }
+
+      .aboutMe__Img{
+        top: 4vh;
+      }
+    }
+  }
+}

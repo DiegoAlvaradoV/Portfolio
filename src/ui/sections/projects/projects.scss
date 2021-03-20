@@ -1,0 +1,118 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.projects{
+    display: grid;
+    gap: 1.5rem;
+
+  .projects__Content{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(174,190,205,0.3);
+    padding: 0;
+
+    .projects__ContentImg{
+      cursor: context-menu;
+      width: 100%;
+      transition: 0.4s;
+    }
+
+    .projects__ContentData{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+      .projects__ContentDataSubtitle{
+        cursor: context-menu;
+        font-size: 0.813rem;
+        color: $PrimaryLight;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      .projects__ContentDataTitle{
+        cursor: context-menu;
+        
+        .projects__ContentDataTitleText{
+          font-size: 1.125rem;
+          color: $Primary;
+          margin: 1rem 0;
+        }
+      }
+
+      .projects__ContentDataButton{
+        display: inline-block;
+        background-color: $Primary;
+        padding: 0.75rem 1rem;
+        border-radius: 0.25rem;
+        transition: 0.35;
+        color: $PrimaryLighten;
+        font-weight: 600;
+      }
+
+      .projects__ContentDataButton:hover{
+        background-color: $PrimaryDark;
+        font-weight: 900;
+      }
+    }
+
+  }
+
+  .projects__Content:hover{
+    box-shadow: 0 6px 8px rgba(174,190,205,0.4);
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px){
+  .projects{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+  .projects{
+    grid-template-columns: repeat(3,1fr);
+  }
+}

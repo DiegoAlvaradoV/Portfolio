@@ -1,0 +1,73 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.menu{
+  color: $PrimaryLighten;
+  
+  .menu__Open{
+    display: inline;
+    font-size: 1.2rem
+  }
+  .menu__Close{
+    display: none;
+  }
+}
+
+.activeMenu{
+
+  .menu__Open{
+    display: none;
+  }
+
+  .menu__Close{
+    display: inline;
+    font-size: 1.2rem
+  }
+}
+
+.menu__Scroll{
+  color: $PrimaryDark;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+  .menu{
+    display: none;
+  }
+}

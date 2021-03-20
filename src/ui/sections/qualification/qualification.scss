@@ -1,0 +1,92 @@
+/*FUENTES*/
+
+@import "../../../assets/scss/fuentes";
+
+$mapaFuentes: (
+  Poppins: $Poppins
+);
+
+
+
+/*COLORES*/
+
+@import "../../../assets/scss/colores";
+
+$mapaColores: (
+  Primary: $Primary,
+  PrimaryDark: $PrimaryDark,
+  PrimaryLight: $PrimaryLight,
+  PrimaryLighten: $PrimaryLighten,
+  Text: $Text
+);
+
+
+
+
+
+
+
+
+
+.qualification{
+
+  .qualification__Content{
+    margin-bottom: 2rem;
+    .qualification__ContentTitle{
+      font-size: 1.125rem;
+      color: $Primary;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+
+      i{
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .qualification__ContentData{
+      display: grid;
+      gap: 1.5rem;
+      text-align: center;
+      cursor: context-menu;
+
+      .qualification__ContentDataInfo{
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ccc;
+
+        .qualification__ContentDataInfoO{
+          font-size: 0.938rem;
+          color: $Primary;
+          margin-bottom: 0.5rem;
+          font-weight: 600;
+        }
+
+        .qualification__ContentDataInfoE{
+          display: block;
+          font-weight: 500;
+          display: flex;
+          flex-direction: column;
+          
+
+          .qualification__ContentDataInfoET{
+            font-size: 0.75rem;
+            color: $PrimaryLight;
+            
+            i{
+              font-size: 0.75rem;
+              color: $PrimaryLight;
+              margin-right: 0.5rem;
+            }
+          }
+        }
+      }
+
+      .qualification__ContentDataCV{
+        cursor: pointer;
+      }
+    }
+  }
+}
