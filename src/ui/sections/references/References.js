@@ -50,7 +50,7 @@ const References = () => {
 
                             <span className="references__ContentDataClient">Gerente financiero Calzados Bebote</span>
 
-                            <p className="references__ContentDataText">"Muy buena experiencia por la organización con la que realiza todas las entregas del proyecto"</p>
+                            <p className="references__ContentDataText">"Muy buena experiencia por la organización con la que realiza todas las entregas"</p>
                         
                         </div>
 
