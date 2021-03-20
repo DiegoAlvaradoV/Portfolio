@@ -86,7 +86,7 @@ $mapaColores: (
 
     .home__SocialIcon{
       width: max-content;
-      font-size: 1.3rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
       color: $PrimaryLighten;
     }
@@ -102,7 +102,7 @@ $mapaColores: (
     bottom: 0;
 
     .home__Img{
-      width: 200px;
+      width: 350px;
     }
   }
 }
@@ -118,15 +118,34 @@ $mapaColores: (
 @media screen and (min-width: 576px){
   .home{
 
+    .home__Presentation{
+  
+      .home__Greeting{
+        font-size: 1.2rem;;
+      }
+  
+      .home__Name{
+        font-size: 2.5rem;
+      }
+  
+      .home__Profession{
+       font-size: 1.5rem;
+      }
+  
+      .home__CV{
+        font-size: 1.3rem;
+      }
+    }
+
     .home__Social{
       .home__SocialIcon{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
       }
     }
 
     .home__ImgBox{
       .home__Img{
-        width: 330px;
+        width: 400px;
       }
     }
   }
@@ -162,12 +181,6 @@ $mapaColores: (
         margin-bottom: 0;
       }
 
-    }
-
-    .home__ImgBox{
-      .home__Img{
-        width: 450px;
-      }
     }
   }
 }
