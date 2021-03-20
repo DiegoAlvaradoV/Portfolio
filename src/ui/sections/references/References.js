@@ -22,7 +22,7 @@ const References = () => {
                     loop= {true}
                     grabCursor= {true}
                     pagination={{ el: '.swiper-pagination',clickable: true }}
-                    breakpoints={{640:{slidesPerView: 2}},{1024:{slidesPerView:2}}}
+                    breakpoints={{640:{slidesPerView:2}}}
                 >
                     <SwiperSlide>
 
@@ -48,7 +48,7 @@ const References = () => {
 
                             <h3 className="references__ContentDataName">Gastón Russo</h3>
 
-                            <span className="references__ContentDataClient">Gerente financiero de Calzados Bebote</span>
+                            <span className="references__ContentDataClient">Gerente financiero Calzados Bebote</span>
 
                             <p className="references__ContentDataText">"Muy buena experiencia por la organización con la que realiza todas las entregas del proyecto"</p>
                         
