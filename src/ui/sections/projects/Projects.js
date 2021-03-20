@@ -30,7 +30,7 @@ const Projects = () => {
                         de forma óptima los productos y sus caracteristicas..
                     </span>
 
-                    <a href="https://diegoalvaradov.github.io/prueba/" className="projects__ContentDataButton" target="_blank">Visitar</a>
+                    <a href="https://diegoalvaradov.github.io/CalzadosBebote/" className="projects__ContentDataButton" target="_blank">Visitar</a>
 
                 </div>
 
@@ -57,7 +57,7 @@ const Projects = () => {
                         realizados por parte de los usuarios.
                     </span>
 
-                    <a href="https://diegoalvaradov.github.io/calzados-bebote-react/" className="projects__ContentDataButton" target="_blank">Visitar</a>
+                    <a href="https://DiegoAlvaradoV.github.io/E-CommerceCalzadosBebote" className="projects__ContentDataButton" target="_blank">Visitar</a>
 
                 </div>
 
