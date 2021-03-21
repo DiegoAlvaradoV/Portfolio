@@ -8,7 +8,7 @@ const AboutMeContainer = () => {
 
         <section className="aboutMeContainer" id="aboutMe">
 
-            <span className="aboutMeContainer__Subtitle">Desenvolvimiento y aptitudes.</span>
+            <span className="aboutMeContainer__Subtitle">Aptitudes y desenvolvimiento.</span>
             <h2 className="aboutMeContainer__Title">Acerca de mí</h2>
 
             <AboutMe/>

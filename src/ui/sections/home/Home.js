@@ -139,7 +139,7 @@ const Home = () => {
 
         <div className="home__ImgBox">
 
-            <img src="https://i.ibb.co/xsPDHb5/ejem.jpg" className="home__Img" alt="Diego Alvarado" ref={refImg}></img>
+            <img src="https://i.ibb.co/9yCHHT1/port.png" className="home__Img" alt="Diego Alvarado" ref={refImg}></img>
 
         </div>
 

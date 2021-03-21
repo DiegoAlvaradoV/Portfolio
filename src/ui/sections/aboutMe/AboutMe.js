@@ -18,7 +18,7 @@ const AboutMe = () => {
 
                 </p>
 
-                <img src="https://via.placeholder.com/590x836" alt="Diego Alvarado" className="aboutMe__Img"></img>
+                <img src="https://i.ibb.co/ZB4pvyN/SET-UP.jpg" alt="Diego Alvarado" className="aboutMe__Img"></img>
 
 
                 <div className="aboutMe__DataTec row">

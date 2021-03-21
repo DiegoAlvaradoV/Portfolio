@@ -28,7 +28,7 @@ const References = () => {
 
                         <div className="references__ContentData">
 
-                            <img className="references__ContentDataImg" alt="Declaración" src="https://via.placeholder.com/500"></img>
+                            <img className="references__ContentDataImg" alt="Declaración" src="https://i.ibb.co/7YCq6Sg/Bebote-NOBK.jpg"></img>
 
                             <h3 className="references__ContentDataName">Maximiliano Russo</h3>
 
@@ -44,7 +44,7 @@ const References = () => {
 
                         <div className="references__ContentData">
 
-                            <img className="references__ContentDataImg" alt="Declaración" src="https://via.placeholder.com/500"></img>
+                            <img className="references__ContentDataImg" alt="Declaración" src="https://i.ibb.co/7YCq6Sg/Bebote-NOBK.jpg"></img>
 
                             <h3 className="references__ContentDataName">Gastón Russo</h3>
 

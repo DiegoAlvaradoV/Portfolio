@@ -102,7 +102,7 @@ $mapaColores: (
     bottom: 0;
 
     .home__Img{
-      width: 350px;
+      width: 250px;
     }
   }
 }
@@ -164,11 +164,11 @@ $mapaColores: (
     .home__Presentation{
   
       .home__Greeting{
-        font-size: 1.25rem;;
+        font-size: 1.2rem;;
       }
   
       .home__Profession{
-        font-size: 3rem;
+        font-size: 2rem;
       }
   
     }
@@ -177,7 +177,7 @@ $mapaColores: (
       flex-direction: row;
       align-items: center;
       .home__SocialIcon{
-        margin-right: 2rem;
+        margin-right: 1.5rem;
         margin-bottom: 0;
       }
 
@@ -262,12 +262,6 @@ $mapaColores: (
         font-size: 4rem;
       }
 
-    }
-
-    .home__ImgBox{
-      .home__Img{
-        width: 600px;
-      }
     }
   }
 }
