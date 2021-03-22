@@ -23,13 +23,13 @@ const Qualification = () => {
 
                     <div className="qualification__ContentDataInfo">
 
-                        <h3 className="qualification__ContentDataInfoO">Licenciatura Informática</h3>
+                        <h3 className="qualification__ContentDataInfoO">Analista de Sistemas</h3>
 
                         <div className="qualification__ContentDataInfoE">
 
                             <span className="qualification__ContentDataInfoET">
                                 <i className="fas fa-university"></i>
-                                Universidad de Palermo
+                                Escuela Da Vinci
                             </span>
 
                             <span className="qualification__ContentDataInfoET">
