@@ -3,6 +3,7 @@ import './qualification.scss';
 import DesarrolloWebDiegoAlvarado from "../../../assets/pdf/DesarrolloWebDiegoAlvarado.pdf";
 import JavascriptDiegoAlvarado from "../../../assets/pdf/JavascriptDiegoAlvarado.pdf";
 import ReactJSDiegoAlvarado from "../../../assets/pdf/ReactJSDiegoAlvarado.pdf";
+import CarreraFrontEndDiegoAlvarado from "../../../assets/pdf/CarreraFrontEndDiegoAlvarado.pdf";
 
 const Qualification = () => {
 
@@ -40,6 +41,34 @@ const Qualification = () => {
                         </div>
 
                     </div>
+
+                    <a className="qualification__ContentDataCV" download="" href={CarreraFrontEndDiegoAlvarado}>
+                        
+                        <div className="qualification__ContentDataInfo">
+                            
+                            <h3 className="qualification__ContentDataInfoO">Carrera de Desarrollo Front End</h3>
+                            
+                            <div className="qualification__ContentDataInfoE">
+                                
+                                <span className="qualification__ContentDataInfoET">
+                                    
+                                    <i className='bx bxs-certification'></i>
+                                    Coderhouse
+                                
+                                </span>
+                                
+                                <span className="qualification__ContentDataInfoET">
+                                    
+                                    <i className="far fa-calendar-alt"></i>
+                                    14 de Agosto/2020 - 21 de Enero/2021
+                                
+                                </span>
+                            
+                            </div>
+                        
+                        </div>
+
+                    </a>
 
                     <a className="qualification__ContentDataCV" download="" href={ReactJSDiegoAlvarado}>
                         
