@@ -191,6 +191,47 @@ const Qualification = () => {
 
                     <div className="qualification__ContentDataInfo">
 
+                        <h3 className="qualification__ContentDataInfoO">Desarrollador de software</h3>
+
+                        <div className="qualification__ContentDataInfoE">
+
+                            <span className="qualification__ContentDataInfoET">
+                                <i className="fas fa-code"></i>
+                                QuickPass
+                            </span>
+
+                            <span className="qualification__ContentDataInfoET">
+                                <i className="far fa-calendar-alt"></i>
+                                Actualidad
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div className="qualification__ContentDataInfo">
+
+                        <h3 className="qualification__ContentDataInfoO">Tutor Desarrollo Web</h3>
+
+                        <div className="qualification__ContentDataInfoE">
+
+                            <span className="qualification__ContentDataInfoET">
+                                <i className="fas fa-code"></i>
+                                Coderhouse
+                            </span>
+
+                            <span className="qualification__ContentDataInfoET">
+                                <i className="far fa-calendar-alt"></i>
+                                Actualidad
+                            </span>
+
+                        </div>
+
+                    </div>
+                    
+
+                    <div className="qualification__ContentDataInfo">
+
                         <h3 className="qualification__ContentDataInfoO">Freelance Front End Web Developer</h3>
 
                         <div className="qualification__ContentDataInfoE">
@@ -202,7 +243,7 @@ const Qualification = () => {
 
                             <span className="qualification__ContentDataInfoET">
                                 <i className="far fa-calendar-alt"></i>
-                                Actualidad
+                                15 de Septiembre/2020 - 15 de Abril/2021
                             </span>
 
                         </div>
